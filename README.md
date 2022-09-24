@@ -77,7 +77,12 @@ python3 urban_dev_explorer --test_merge
 
 
 
-### Data: 
+## Data: 
+
+* Building Permits: 
+* Demographics: 
+* Crime (homicide): [Chicago Data Portal API](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2)
+* Local Commerce: 
 
 
 
