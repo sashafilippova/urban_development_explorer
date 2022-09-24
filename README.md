@@ -1,10 +1,11 @@
 # Urban Development Explorer
+> CAPP 30122 CS Final Project
 
 ## Authors: 
-- Anthony Hakim
-- Marc Loeb
-- Sasha Filippova
-- Yifu Hou
+* Anthony Hakim
+* Marc Loeb
+* Sasha Filippova
+* Yifu Hou
 
 ## Project Descripion:
 Our application is an interactive map displaying urban development indicators
@@ -13,7 +14,6 @@ analysis purposes. Intended users are researchers, professionals,
 and students, who are interested in developing an intuition for the various
 factors that may affect urban growth and decay.
 
-----------------
 
 ### Running the Application Locally:
 
@@ -64,13 +64,17 @@ python3 urban_dev_explorer --test_merge
 
 ## Directory:
 
-- **requirements.txt**: list of Python packages required to run the application
-- **proj-paper.pdf**: final paper describing the project overview, structure of the software, division of work, etc.
-- **proj-diagram.pdf**: visual representation of the application architecture 
-- **install.sh**: shell script that creates a virtual envirenment and installs required packages to run the app
-- **urban_dev_explorer/**: foder containing the application. See description of the subfolders below.
+* **requirements.txt**: list of Python packages required to run the application
+* **proj-paper.pdf**: final paper describing the project overview, structure of the software, division of work, etc.
+* **proj-diagram.pdf**: visual representation of the application architecture 
+* **install.sh**: shell script that creates a virtual envirenment and installs required packages to run the app
+* **urban_dev_explorer/**: application folder. See description of files & subfolders below:
+  * **data/**: folder containing processed data used in the maps
+  * **data_processing/**: folder containing scrips to extract data from APIs, clean, merge, and geocode data
+  * **ui/**: folder containing scripts for building maps in Dash
+  * **__main__.py**: entry point of the app. There are several options to run the app described above
+  * **run.sh**: shell script to run the app (without testing mode)
 
-#### urban_dev_exporer/:
 
 
 ### Data: 
