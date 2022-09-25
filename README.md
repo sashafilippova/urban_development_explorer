@@ -9,7 +9,7 @@
 
 ## Project Descripion:
 Our application is an interactive map displaying urban development indicators
-along with varios socioeconomic indicators, intended for exploratoty data 
+along with varios socioeconomic indicators at a community area level, intended for exploratoty data 
 analysis purposes. Intended users are researchers, professionals, 
 and students, who are interested in developing an intuition for the various
 factors that may affect urban growth and decay.
@@ -79,10 +79,11 @@ python3 urban_dev_explorer --test_merge
 
 ## Data: 
 
-* Building Permits: 
-* Demographics: 
-* Crime (homicide): [Chicago Data Portal API](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2)
-* Local Commerce: 
+* Building permits: [Chicago Data Portal API- building permits](https://data.cityofchicago.org/Buildings/Building-Permits/ydr8-5enu)
+* Shapefile of Chicago community areas: [from Chicago Data Portal](https://data.cityofchicago.org/api/geospatial/cauq-8yn6?method=export&format=GeoJSON). This file is used to map building permit latitude/longitude to a community area 
+* Demographics: [Chicago Metropolitan Agency for Planning (CMAP) Data Hub](https://datahub.cmap.illinois.gov/dataset/1d2dd970-f0a6-4736-96a1-3caeb431f5e4/resource/0916f1de-ae37-4476-bf4e-6485ba08c975/download/Census2020SupplementCCA.csv)
+* Crime (homicide): [Chicago Data Portal API- crimes](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2)
+* Local Commerce: [Chicago Data Portal API- grocery stores](https://data.cityofchicago.org/Community-Economic-Development/Grocery-Stores-2011/4u6w-irs9) which can be used to identify food desert areas.
 
 
 
