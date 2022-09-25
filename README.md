@@ -14,6 +14,11 @@ analysis purposes. Intended users are researchers, professionals,
 and students, who are interested in developing an intuition for the various
 factors that may affect urban growth and decay.
 
+Example:
+<img width="1432" alt="image" src="https://user-images.githubusercontent.com/89982437/192164824-134d66fe-0f60-4d1c-977a-2d2dac50b2c2.png">
+
+<img width="1413" alt="image" src="https://user-images.githubusercontent.com/89982437/192164934-f3d10b6c-a0db-4706-9d58-b4325f406211.png">
+
 
 ### Running the Application Locally:
 
